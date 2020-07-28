@@ -8,11 +8,7 @@ A test platformer game for me to test out different aspects of Unity and learn h
 
 
 
-----
-
 ## Devlog
-
----
 
 ### Day 1 (25/07/2020)
 
@@ -63,11 +59,25 @@ A test platformer game for me to test out different aspects of Unity and learn h
 
 * Freeze the player's Rigidbody's rotation to stop them from tripping.
 
-****
+### Day 4 (28/07/2020)
+
+**Learned/Did This:**
+
+* Started work on a moving platform and its script.
+
+**Problems:**
+
+* How can I make it so the MovingPlatformController can accommodate for both horizontal and vertical movement?
+* Current way of setting endPosition and determining whether the platform has travelled far enough is ineffecient; I need to find a more practical way of doing that.
+  * e.g Only assign a new endPosition when the currentMovement changes.
+
+**Notes:**
+
+* Enum values are referred to as ``EnumName.ENUM_VALUE``
+
+
 
 ## Resources Used
-
-----
 
 ### Graphics
 
