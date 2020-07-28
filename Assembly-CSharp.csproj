@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7b7b35bf-a490-b947-e547-676976519dcf}</ProjectGuid>
+    <ProjectGuid>{0e6b8174-1e4a-b606-2a2d-db7196758568}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -39,6 +39,7 @@
      <Compile Include="Assets\FreeParallax\Scripts\FreeParallax.cs" />
      <Compile Include="Assets\FreeParallax\Scripts\FreeParallaxDemo.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatformController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\Graphics\parallax_demon_woods_pack\license.txt" />
      <None Include="Assets\FreeParallax\Readme.txt" />
@@ -226,7 +227,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="RainbowCore">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -574,37 +575,37 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A Test Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/jsury/Documents/coding/unity_projects/A-Test-Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

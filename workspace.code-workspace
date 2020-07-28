@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
-    "eppz-code.disableAnalytics": true
+    "eppz-code.disableAnalytics": true,
+    "editor.fontSize": 13
   }
 }
