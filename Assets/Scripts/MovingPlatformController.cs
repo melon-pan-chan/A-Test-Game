@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class MovingPlatformController : MonoBehaviour
 {
-    //Vector holding the origin point of the platform
+    /// <summary>Vector holding the origin point of the platform</summary>
     Vector3 home;
 
 
     //TODO: Implement a way to select whether the plaform moves horizontally or vertically
 
-    /* Enum signalling what stage of movement the platform is in:
-        0. Home to left
-        1. Left to home
-        2. Home to right
-        3. Right to home
-    */
+    /// <summary>
+    /// Enum signalling what stage of movement the platform is in:
+    ///0. Home to left
+    ///1. Left to home
+    ///2. Home to right
+    ///3. Right to home
+    /// </summary>
     public enum MovementState
     {
         HOME_TO_LEFT,
@@ -24,7 +25,8 @@ public class MovingPlatformController : MonoBehaviour
         RIGHT_TO_HOME
     }
 
-    //Instance of the afformentioned MovementState enum
+
+    /// <summary>Instance of the afformentioned MovementState enum</summary>///
     [SerializeField, Tooltip("Enum signalling what stage of movement the platform is in")]
     MovementState currentMovement;
 
